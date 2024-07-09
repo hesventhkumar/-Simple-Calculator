@@ -1,0 +1,86 @@
+
+
+h1{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: darkgray;
+    margin: 0px;
+}
+body {
+	background-color:cornsilk;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    margin-top: 200px;
+	height: 100%;
+	width: 100%;
+}
+
+#container {
+	width: 300px;
+    height: 350px;
+	padding: 20px 20px 40px 20px;
+	margin: 20px auto;
+	background-color:darkgray;
+	border-radius: 4px;
+	
+	
+}
+
+#display {
+	display: block;
+	margin: 5px;
+	height: 42px;
+	width: 260px;
+	padding: 0 10px;
+	border-radius: 7px;
+	background-color:white;
+	font-size: 28px;
+	color:black;
+	text-align: right;
+	
+    
+}
+
+.button {
+	display: inline-block;
+	margin: 2px;
+	width: 65px;
+	height: 42px;
+    margin-top: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 4px;
+}
+
+.mathButtons {
+	margin: 2px 2px 6px 2px;
+	color:black;
+	background-color: gray;
+	
+}
+.displaybutton{
+    margin-right:10px;
+    color:black;
+	background-color: gray;
+
+}
+
+.digits {
+	color: black;
+	background-color:antiquewhite;
+	border-radius: 4px;
+}
+
+
+
+#clearButton {
+	color:white;
+    background-color:red;
+}
